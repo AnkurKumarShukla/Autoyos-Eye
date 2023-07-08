@@ -1,0 +1,12 @@
+
+
+
+
+
+Full Blink: If the eyes are closed for more than or equal to 15 frames (corresponding to approximately half a second) consecutively, it is considered a full blink.
+
+Fast Blink: If the eyes are closed for 8 to 14 frames consecutively, it is considered a fast blink. This represents a shorter duration compared to a full blink.
+
+Slow Blink: If the eyes are closed for less than 8 frames consecutively, it is considered a slow blink. This represents a relatively shorter duration of closed eyes.
+
+No Blink: If the eyes are open or closed for less than the defined minimum duration (MAXIMUM_FRAME_COUNT), it is considered as no blink.
